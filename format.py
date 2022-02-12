@@ -5,8 +5,9 @@ firstname = 'John'
 lastname = 'Li'
 city = 'Markham'
 province = 'Ontario'
+country = 'Canada'
 #output =  'Hello '+ firstname + ' ' + lastname 
 #output = 'Hello, {} {}'.format(firstname, lastname)
 #output = 'Hello, {0} {1} in {2} '.format(firstname, lastname, city)
-output = f'Hello, {firstname} {lastname} in {city} of {province}' 
+output = f'Hello, {firstname} {lastname} in {city} of {province}, {country}' 
 print(output)
