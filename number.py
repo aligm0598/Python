@@ -1,0 +1,6 @@
+#days_in_month = input('How many days are in your current month? ')
+#print(february_days)
+#print(days_in_month + " days in current month") 
+number1 = input('Enter first number: ')
+number2 = input('Enter second number: ')
+print(float(number1) + float(number2))
