@@ -9,6 +9,11 @@ yesterday = today - one_day
 print('Today is: ' + str(today))
 print('Yesterday was: ' + str(yesterday))
 
-birthday = input('When is your birthday (dd/mm/yyyy)? ')
-birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
-print ('Birthday: ' +str(birthday_date) +' '+ str(birthday_date.strftime('%A')))
+try:
+    birthday = input('When is your birthday (dd/mm/yyyy)? ')
+    birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
+    print ('Birthday: ' +str(birthday_date) +' '+ str(birthday_date.strftime('%A')))
+except ValueError as e:
+    print('Please put vaild date in correct format (dd/mm/yyyy)')
+finally:
+    print('Finished')
