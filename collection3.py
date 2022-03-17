@@ -28,3 +28,11 @@ family.append(sister)
 family.append(brother)
 family_print = family[0:3]
 print(family_print)
+
+print(len(family))
+for people in family:
+    if people['age'] > 15 and 60:
+        print(people)
+
+
+
