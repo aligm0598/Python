@@ -1,7 +1,7 @@
 # requirement1: ask your firstname, middle name, last name, and print out initial.
 # requirement2: get a function call get_initial, and use it to extract initials for all the names
 def get_initial(name):
-     initial = name[0:1]
+     initial = name[0:1].upper()
      return initial
 
 
