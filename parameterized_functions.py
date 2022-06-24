@@ -1,7 +1,6 @@
 # Author: John 
 # Date: Friday June 24
-# This code is about parameterized functions
-
+# This code is about parameterized functions. This code asks for your first name and will give you your intial if.
 def get_initial(name, force_uppercase= True): 
     if force_uppercase:
         initial = name[0:1].upper()
