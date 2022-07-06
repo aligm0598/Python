@@ -6,7 +6,14 @@
 import requests, json
 
 # Enter your API key here
-api_key = "64c333540362cfe01d523720beec9880"
+# Dad's change, pick api_key from .env
+
+from dotenv import load_dotenv
+load_dotenv()
+import os
+
+password = os.getenv('PASSWORD')
+
 
 # base_url variable to store url
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -16,7 +23,7 @@ city_name = input("Enter city name : ")
 
 # complete_url variable to store
 # complete url address
-complete_url = base_url + "appid=" + api_key + "&q=" + city_name
+complete_url = base_url + "appid=" + password + "&q=" + city_name
 
 # get method of requests module
 # return response object
