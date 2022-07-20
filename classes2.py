@@ -1,3 +1,6 @@
+#Author:John
+#Date:Wednesday July 20
+#This code is about classes
 class Presenter():
     def __init__(self, name):
         self.name = name
@@ -8,8 +11,10 @@ class Presenter():
     def name(self, value):
         self._name = value
 
-presenter = Presenter('John')
-print(presenter.name)
+john = Presenter('John')
+print(john.name)
 
+michael = Presenter('Michael')
+print(michael.name)
 
     
