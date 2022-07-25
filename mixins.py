@@ -29,5 +29,6 @@ class JustLog(Loggable):
 just_log = JustLog()
 framework(just_log)
 
-
+sqlDatabase = SqlDatabase()
+framework(sqlDatabase)
 
