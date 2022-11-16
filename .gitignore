@@ -1,2 +1,3 @@
 .env
 Data/flight_delays.csv
+.DS_Store
